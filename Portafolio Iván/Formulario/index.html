@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h2>
+            Formulario de contacto
+        </h2>
+        <fieldset>
+            <legend>INFORMACIÓN BÁSICA</legend><!--SIMPLE INPUTS-->
+        <div class="form_input">
+            <label>Nombre completo
+            <input type="text" placeholder="Lionel Messi">
+        </label>
+        </div>
+        <div class="form_input">
+            <label>Email
+            <input type="email" placeholder="ejemplo@gmail.com">
+        </label>
+    </div>
+    <div class="form_input">
+        <label>Asunto
+        <input type="text" placeholder="Asunto de tu mensaje">
+    </label>
+</div>
+    </fieldset>
+
+        <!--SELECT & OPTION-->
+        <div class="form_input">
+            <label>Tipo de usuario
+                <select name="type-of-user">
+                    <option value="user1">Cliente</option>
+                    <option value="user2">Distribuidor</option>
+                    <option value="user3">Otros</option>
+                </select>
+            </label>
+        </div>
+
+            <!--DATALIST & OPTION-->
+        <div class="form_input">
+            <label>Referente
+            <input list="referente" name="referente">
+                <datalist id="referente" name="type-of-user">
+                    <option value="Anuncios">Anuncios de internet</option>
+                    <option value="Amigo">Un amigo o conocido</option>
+                    <option value="YouTube"></option>
+                </datalist>
+            </label>
+        </div>
+
+
+        <!--TEXTAREA-->
+        </div>
+        <div class="form_input">
+            <label>Mensaje
+            <textarea rows="8" placeholder="Dejá tu mensaje..."></textarea></label>
+        </div>
+        <div class="form_input">
+            <label>Acepto los términos y condiciones
+            <input type="checkbox" class="checkbox">
+        </label>
+        </div>
+    </form>
+</body>
+</html>

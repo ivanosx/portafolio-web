@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background: linear-gradient(to left, #171718, #8360c3); /* Degradado opuesto al del navbar */
+    color: white;
+    text-align: center;
+    padding: 30px 0; /* Espaciado superior e inferior */
+}
+
+.custom-navbar {
+    background-color: #1f1e1d; /* Color de fondo del navbar */
+    overflow: hidden; /* Asegura que los elementos se alineen correctamente */
+}
+
+.custom-navbar .container {
+    display: flex; /* Usamos flexbox para alinear los elementos */
+    justify-content: space-around; /* Espaciado igual entre los enlaces */
+    padding: 10px 0; /* Espaciado superior e inferior del navbar */
+}
+h2 {
+    margin-top: 30px;
+}
+
+footer {
+    background-color: #f7f4f4;
+}
+
+.carousel-inner img {
+    width: 100%; /* Asegura que la imagen ocupa el ancho completo del contenedor */
+    height: 600px; /* Establece una altura fija, ajusta según necesites */
+    object-fit: cover; /* Mantiene la proporción y recorta la imagen si es necesario */
+}
+
+.navbar {
+    padding: 1rem 1rem; /* Ajusta el padding del navbar */
+    background-color: #7b848d !important; /* Cambia el color de fondo aquí con !important */
+}
+
+.navbar-brand {
+    font-size: 1rem; /* Ajusta el tamaño del texto del logo */
+}
+
+.nav-link {
+    font-size: 1rem; /* Reduce el tamaño de la fuente */
+    color: #fff; /* Color de texto blanco */
+    transition: color 0.3s ease; /* Suave transición de color */
+}
+
+.nav-link:hover {
+    color: #fa31f0; /* Cambia a un color diferente al pasar el mouse */
+}
